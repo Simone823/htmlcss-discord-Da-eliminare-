@@ -147,3 +147,47 @@ header {
     text-decoration: none;
     color: white;
 }
+
+section{
+    width: 100%;
+    height: 688px;
+    /* border: 3px solid yellowgreen; */
+    position: relative;
+}
+
+.section_wrapper_text{
+    width: 100%;
+    min-height: 434px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 30px;
+}
+
+.logo_section_1{
+    width: 680px;
+    height: 407px;
+    /* border: 1px solid blue; */
+    float: left;
+}
+
+.logo_section_1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.text_logo_dx{
+    width: 283px;
+    height: 407px;
+    /* border: 1px solid blue; */
+    float: right;
+}
+
+.text_logo_dx h1{
+    font-size: 40px;
+}
+
+.text_logo_dx p{
+    margin-top: 25px;
+}
