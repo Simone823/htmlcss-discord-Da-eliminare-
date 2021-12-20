@@ -5,18 +5,28 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1356px;
-    min-height: 4096px;
-    border: 1px solid black;
-    margin: 0 auto;
-}
-
-header {
+#header_img{
     width: 100%;
     min-height: 503px;
     background-image: url(img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.container {
+    max-width: 1356px;
+    min-height: 4096px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+header {
+    width: 100%;
+    min-height: 503px;
     border: 2px solid red;
 }
+
