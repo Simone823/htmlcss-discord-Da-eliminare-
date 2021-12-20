@@ -93,3 +93,56 @@ header {
     color: black;
     padding: 10px;
 }
+
+.row_2_header{
+    width: 100%;
+    min-height: 422px;
+    border: 1px solid yellowgreen;
+}
+
+.text_wrapper_header{
+    max-width: 620px;
+    min-height: 245px;
+    border: 2px solid magenta;
+    text-align: center;
+}
+
+.text_wrapper_header h1{
+    font-size: 40px;
+    color: white;
+}
+
+.text_wrapper_header p{
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+}
+
+.button{
+    height: 52px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 25px;
+    line-height: 52px;
+}
+
+.button.sx{
+    background-color: white;
+    width: 194px;
+    margin-right: 20px;
+}
+
+.button.dx{
+    background-color: black;
+    width: 292px;
+}
+
+.button.sx a{
+    text-decoration: none;
+    color: black;
+}
+
+.button.dx a{
+    text-decoration: none;
+    color: white;
+}
