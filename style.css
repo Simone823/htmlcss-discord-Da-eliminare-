@@ -148,7 +148,7 @@ header {
 }
 
 section.heigh_s{
-    width: 100%;
+    width: calc(100% - 1/2);
     height: 688px;
     /* border: 3px solid yellowgreen; */
     position: relative;
@@ -297,19 +297,21 @@ section.heigh_l{
 footer{
     width: 100%;
     height: 520px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
 }
 
 .row_1_footer{
     width: 100%;
     height: 333px;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     margin-top: 30px;
 }
 
 .quadrato_s{
     width: calc(100% / 5);
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     float: left;
 }
 
@@ -338,7 +340,7 @@ footer{
 
 .quadrato_s ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .language{
@@ -347,4 +349,25 @@ footer{
 
 .language img{
     width: 20px;
+}
+
+
+.row_2_footer{
+    width: 100%;
+    height: 62px;
+    border: 1px solid blue;
+    margin-top: 30px;
+    line-height: 62px;
+}
+
+.button_footer{
+    float: right;
+}
+
+.button_footer a{
+    background-color: mediumslateblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 25px;
 }
